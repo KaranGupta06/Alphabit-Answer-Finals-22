@@ -36,8 +36,6 @@ def check_cardinal_directions(self_pos ,cords: tuple):
     
     return moves
 
-#dx dy = 0 inprove chess code
-
 def is_check(cord):
     for i in range(5):
         for j in range(5):
